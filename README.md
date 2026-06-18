@@ -54,9 +54,9 @@
 
 | Picture | Name | Age | Role | Socials | Basic Info |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| | John Kenneth G. Orellano | 16 | Robot Programmer, Researcher and Technical Writer | <a href="https://www.instagram.com/wtf_kennnyy" target="_blank">@wtf_kennnyy </a> | Hello! I am Kenneth, and I am excited to return to the Philippine Robotics Olympiad for my second year, having previously participated in 2025 and the Future Engineers category. Beyond the PRO, I have proudly represented my school in two other major robotics competitions. Back in December 2025, my team and I snagged 1st Prize at the International Global Artificial Intelligence Robot Contest in Malaysia. More recently, in February 2026, we took home 2nd place at the Regional DOST Robotech 2025 in Dagupan City, where we were thrilled to receive the Best in Robot Design and Industrial Awards. I’m really passionate about programming, and when I’m not working on robotics, you can usually find me playing mobile games. |
-| | Kryztal Gale R. Rivera | 16 | Lead Researcher, Robot Engineer and Technical Writer | <a href="https://www.instagram.com/rvtala_/" target="_blank">@rvtala_ </a> | Hello! I am Kryztal, and this marks my second year competing in the Philippine Robotics Olympiad, returning to the Future Engineers category after a memorable run with my team last year. My strengths lie heavily in research, a role I frequently take on for both academic and organizational projects. Driven by natural curiousity, I absolutely love discovering and exploring new things, which is how I spend most of my free time! |
-| | Galvin Ehli Roi P. Sison | 16 | Lead Robot Engineer, Researcher and Technical Writer | <a href="https://www.instagram.com/drnd.gab?/" target="_blank">@drnd.gab </a> | Hello! I am Galvin, and this is my second year competing in the Philippine Robotics Olympiad. After representing my school in the RoboMission Junior High School category last 2025, I’m really looking forward to shifting gears to the Future Engineers category this year. I love the hands-on side of robotics and usually take on the role of the team builder. In fact, Kenneth and I were teammates for the International GAR in Malaysia, where I handled the building and we took home 1st Prize. I also competed in the 2025 First LEGO League, where our team was honored with the "Most Impactful to the Community" award. |
+|<img width="100%" src="t-photos/FE TEAM A INDIV (2).png"></img> | John Kenneth G. Orellano | 16 | Robot Programmer, Researcher and Technical Writer | <a href="https://www.instagram.com/wtf_kennnyy" target="_blank">@wtf_kennnyy </a> | Hello! I am Kenneth, and I am excited to return to the Philippine Robotics Olympiad for my second year, having previously participated in 2025 and the Future Engineers category. Beyond the PRO, I have proudly represented my school in two other major robotics competitions. Back in December 2025, my team and I snagged 1st Prize at the International Global Artificial Intelligence Robot Contest in Malaysia. More recently, in February 2026, we took home 2nd place at the Regional DOST Robotech 2025 in Dagupan City, where we were thrilled to receive the Best in Robot Design and Industrial Awards. I’m really passionate about programming, and when I’m not working on robotics, you can usually find me playing mobile games. |
+|<img width="100%" src="t-photos/FE TEAM A INDIV (1).png"></img>| Kryztal Gale R. Rivera | 16 | Lead Researcher, Robot Engineer and Technical Writer | <a href="https://www.instagram.com/rvtala_/" target="_blank">@rvtala_ </a> | Hello! I am Kryztal, and this marks my second year competing in the Philippine Robotics Olympiad, returning to the Future Engineers category after a memorable run with my team last year. My strengths lie heavily in research, a role I frequently take on for both academic and organizational projects. Driven by natural curiousity, I absolutely love discovering and exploring new things, which is how I spend most of my free time! |
+|<img width="100%" src="t-photos/FE TEAM A INDIV.png"></img>| Galvin Ehli Roi P. Sison | 16 | Lead Robot Engineer, Researcher and Technical Writer | <a href="https://www.instagram.com/drnd.gab?/" target="_blank">@drnd.gab </a> | Hello! I am Galvin, and this is my second year competing in the Philippine Robotics Olympiad. After representing my school in the RoboMission Junior High School category last 2025, I’m really looking forward to shifting gears to the Future Engineers category this year. I love the hands-on side of robotics and usually take on the role of the team builder. In fact, Kenneth and I were teammates for the International GAR in Malaysia, where I handled the building and we took home 1st Prize. I also competed in the 2025 First LEGO League, where our team was honored with the "Most Impactful to the Community" award. |
 
 # 💡 Team Structure & Management
 Driven by curiosity, creativity, and collaborative teamwork, this project represents our team's collective effort.
@@ -231,6 +231,24 @@ On the programming front, we had a tough time getting accurate readings from our
 Despite these hurdles—both mechanical and software-related—we tackled each one head-on. We constructed better rigs and refined our code. Ultimately, we achieved the sturdiness, efficiency, and versatility we had set out to create. The final rig met our expectations across all three crucial aspects, and we couldn’t be happier with the outcome.
 
 # 📸 6. Team and Vehicle Pictures
+
+**Individual Photos**
+
+<img width="50%" src="t-photos/FE TEAM A INDIV (2).png"></img>
+<img width="50%" src="t-photos/FE TEAM A INDIV (1).png"></img>
+<img width="50%" src="t-photos/FE TEAM A INDIV.png"></img>
+
+**Team Tahak Group Photo**
+
+<img width="50%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img>
+
+**Team Tahak Funny Photo**
+
+<img width="50%" src="t-photos/FE TEAM A GROUP FUNNY PHOTO.png"></img>
+
+**Team Tahak Group Photo with Coach**
+
+<img width="50%" src="t-photos/FE TEAM A PHOTO WITH TEAM COACH.png"></img>
 
 # 📑 7. Logs and Documentations
 
