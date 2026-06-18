@@ -128,6 +128,33 @@ flowchart TD
 
 **Obstacle Challenge Flow Diagram**
 
+```mermaid
+flowchart TD
+  A[Start initializing motors and sensors, lap and obstacle counter] --> B[Reset gyro angle] --> C(Get all distance sensor values)
+  C --> |If left dist sensor > right dist sensor| D([Do parking lot clockwise exit manuever, set driving direction to clockwise]) --> T
+  C --> |If left dist sensor < right dist sensor| E([Do parking lot counter-clockwise exit manuever, set driving direction to counter-clockwise]) --> T
+  D --> P[Reset gyro angle] --> F([Slowly drive forward])
+  E --> F
+  F --> G{Wait until camera detects an obstacle}
+  G --> |If green obstacle detected| H([Do green avoidance manuever]) --> J(Drive forward, add +1 to obstacle counter)
+  G --> |If red obstacle detected| I([Do red avoidance manuever]) --> J
+  G --> |If no obstacle detected| J
+  J --> K{Check if there’s still an obstacle}
+  K --> |Yes| L{Check if obstacle is equal to 2}
+  K --> |No| M{Check line color detected}
+  L --> |Yes| M
+  L --> |No| F
+  M --> |If orange line detected| N([Slowly turn clockwise]) --> Q(Reset obstacle counter to 0)
+  M --> |If blue line detected| O([Slowly turn counter-clockwise]) --> Q
+  Q --> R(Add +1 to lap counter)
+  R --> S{Check if lap counter is 12}
+  S --> |Yes| T{Check what driving direction}
+  S --> |No| F
+  T --> |Clockwise| U([Do parking lot clockwise entry manuever])
+  T --> |Counter-clockwise| V(Do parking lot counter-clockwise entry manuever)
+  U --> W([Stop motors and program])
+  V --> W
+```
 
 ### 1.3 Prototype Development
 
