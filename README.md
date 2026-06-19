@@ -25,7 +25,7 @@
         - [3.1.2 Yellow SPIKE Rechargeable Battery](#312-yellow-spike-rechargeable-battery)
     - [3.2 Sense Management](#32-sense-management)
         - [3.2.1 Black SPIKE Distance Sensor](#321-black-spike-distance-sensor)
-        -  [3.2.2 SPIKE Prime Color Sensor](#322-spike-prime-color-sensor)
+        -  [3.2.2 SPIKE PRIME Color Sensor](#322-spike-prime-color-sensor)
         - [3.2.3 DFRobot HUSKYLENS v1](#323-dfrobot-huskylens-v1)
         
 - [🎯 4. Parking, Open and Obstacle Challenge Management](#-4-parking-open-and-obstacle-challenge-management)
@@ -177,14 +177,14 @@ Ultimately, this setup creates a fast, hands-on feedback loop where software com
 ### 2.1 Component & Material Specifications (BOM) 
 | Image | Components | Quantity | Description |
 | :---: | :---: | :---: | :--- |
-|<img width="75%" src="other/Spike prime hub.jpg"></img>| **Spike Prime Hub** | 1 | It is the main brain and controller of our robot. It is also equipped with a 7.2V, 2,100 mAh rechargeable lithium-ion battery. |
-|<img width="75%" src="other/Distance sensor.jpg"></img>| **Spike Distance sensor** | 2 | The technic Distance Sensor is used to measure the distance of the robot from the outer and inner walls. It helps the robot to avoid hitting the walls and aligning itself in the middle. |
-|<img width="75%" src="other/Huskylens v1.jpg"></img>| **Huskylens v1** | 1 | The huskylens v1 serves as the eye of our robot. Used to detect different obstacles, walls, and lines. This helps us to detect the green and red obstacles.|
-|<img width="75%" src="other/Medium angular motor.jpg"></img> | **Medium angular motor** | 1 | The technic medium angular motor is a highly responsive and high-speed motor. It helps give precise turning movement that's crucial for every corner of the playing mat. |
-|<img width="75%" src="other/Large angular motor.jpg"></img> | **Large angular motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward.
-|<img width="75%" src="other/Color sensor.jpg"></img> | **Color sensor** | 1 | Operates with a high precision to detect colors, and measures reflected light. This sensor help us to determine the color blue and orange. | 
-|<img width="75%" src="other/Spike wheels.jpg"></img> | **Spike Prime Wheels** | 4 | Used for high traction, consistent alignment, and precise movement.
-|<img width="75%" src="other/Building components.jpg"></img>  | **SPIKE Prime Building Components** | Multiple pieces were used | Building components like axles, beams, gears, and connectors were used to construct the robot's driving and steering mechanisms. Precision, durability, and modular design makes these parts ensure mechanical reliability and easily integrate with electronic components.
+|<img width="75%" src="other/Spike prime hub.jpg"></img>| **SPIKE PRIME Hub** | 1 | It is the main brain and controller of our robot. It is also equipped with a 7.2V, 2,100 mAh rechargeable lithium-ion battery. |
+|<img width="75%" src="other/Distance sensor.jpg"></img>| **SPIKE Distance Sensor** | 2 | The technic Distance Sensor is used to measure the distance of the robot from the outer and inner walls. It helps the robot to avoid hitting the walls and aligning itself in the middle. |
+|<img width="75%" src="other/Huskylens v1.jpg"></img>| **HUSKYLENS v1** | 1 | The huskylens v1 serves as the eye of our robot. Used to detect different obstacles, walls, and lines. This helps us to detect the green and red obstacles.|
+|<img width="75%" src="other/Medium angular motor.jpg"></img> | **Medium Angular Motor** | 1 | The technic medium angular motor is a highly responsive and high-speed motor. It helps give precise turning movement that's crucial for every corner of the playing mat. |
+|<img width="75%" src="other/Large angular motor.jpg"></img> | **Large Angular Motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward.
+|<img width="75%" src="other/Color sensor.jpg"></img> | **SPIKE PRIME Color Sensor** | 1 | Operates with a high precision to detect colors, and measures reflected light. This sensor help us to determine the color blue and orange. | 
+|<img width="75%" src="other/Spike wheels.jpg"></img> | **SPIKE PRIME Wheels** | 4 | Used for high traction, consistent alignment, and precise movement.
+|<img width="75%" src="other/Building components.jpg"></img>  | **SPIKE PRIME Building Components** | Multiple pieces were used | Building components like axles, beams, gears, and connectors were used to construct the robot's driving and steering mechanisms. Precision, durability, and modular design makes these parts ensure mechanical reliability and easily integrate with electronic components.
 
 ### 2.2 Electrical Wiring & Power Distribution
 
@@ -209,14 +209,14 @@ To improve steering precision and operational reliability, the previous rack-and
 
 ***This helps us differentiate distances between walls to determine how sharp we must turn or how little, with that we are able to have a versatile and capable rig that can traverse tight paths.***
 
-### 3.2.2 SPIKE Prime Color Sensor
+### 3.2.2 SPIKE PRIME Color Sensor
 <img width="25%" src="other/SPIKE Prime Color Sensor.jpg"></img>
 ***Used to detect the color of the lines in each corner, allowing our rig to differentiate which direction to turn in, allowing us to be able to have smooth runs.***
 
 ### 3.2.3 DFRobot HUSKYLENS v1
 <img width="25%" src="other/DFRobot HUSKYLENS v1.jpg"></img>
 
-***Provides us integrated AI and a built in differentiation system between specific items, e can also add on to the things it can detect and ignore allowing us to have a clear vision on how to traverse in the mat to choose which path allows us to have a more smooth and efficient runs.***
+***Provides us integrated AI and a built in differentiation system between specific items and can also add on to the things it can detect and ignore allowing us to have a clear vision on how to traverse in the mat to choose which path allows us to have a more smooth and efficient runs.***
 
 
  # 🎯 4. Parking, Open and Obstacle Challenge Management
@@ -252,15 +252,43 @@ Despite these hurdles—both mechanical and software-related—we tackled each o
 
 **Team Tahak Group Photo**
 
-<img width="50%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img>
+<img width="75%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img>
 
 **Team Tahak Funny Photo**
 
-<img width="50%" src="t-photos/FE TEAM A GROUP FUNNY PHOTO.png"></img>
+<img width="75%" src="t-photos/FE TEAM A GROUP FUNNY PHOTO.png"></img>
 
 **Team Tahak Group Photo with Coach**
 
-<img width="50%" src="t-photos/FE TEAM A PHOTO WITH TEAM COACH.png"></img>
+<img width="75%" src="t-photos/FE TEAM A PHOTO WITH TEAM COACH.png"></img>
+
+**Vehicle Photo:** ***Full View***
+
+<img width="50%" src="v-photos/V PHOTO - B-BOT FULL VIEW.png"></img>
+
+**Vehicle Photo:** ***Front View***
+
+<img width="50%" src="v-photos/V PHOTO - FRONT VIEW.png"></img>
+
+**Vehicle Photo:** ***Back View***
+
+<img width="50%" src="v-photos/V PHOTO - BACK VIEW.png"></img>
+
+**Vehicle Photo:** ***Top View***
+
+<img width="50%" src="v-photos/V PHOTO - TOP VIEW.png"></img>
+
+**Vehicle Photo:** ***Bottom View***
+
+<img width="50%" src="v-photos/V PHOTO - BOTTOM VIEW.png"></img>
+
+**Vehicle Photo:** ***Right View***
+
+<img width="50%" src="v-photos/V PHOTO - RIGHT VIEW.png"></img>
+
+**Vehicle Photo:** ***Left View***
+
+<img width="50%" src="v-photos/V PHOTO - LEFT VIEW.png"></img>
 
 # 📑 7. Logs and Documentations
 
