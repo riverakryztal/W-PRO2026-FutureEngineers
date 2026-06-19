@@ -47,7 +47,7 @@
 # 🧩 Introduction
 
 # 👥 About Us!
-<img width="100%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img>
+ <h3 align="center"><img width="100%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img></h3>
 
 ### Team Name: TAHAK
 ### Robot Name: B-BOT
@@ -157,6 +157,7 @@ flowchart TD
 ```
 
 ### 1.3 Prototype Development
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - PROTOTYPE.png"></img> </h3>
 
 The development of the autonomous vehicle was a process of trial and error, guided by the essential goals of versatility, efficiency, and durability. The team kicked things off by building a prototype to set a benchmark for strength and basic movement. While testing this initial model in the field showed it could tackle simple obstacles, it also highlighted some major flaws in how well it could adapt to various environments. The first version struggled with uneven weight distribution and ended up being too heavy overall. This extra weight strained the drivetrain, which ultimately affected the vehicle's efficiency and made it less responsive during sharp turns. 
 
@@ -189,6 +190,8 @@ Ultimately, this setup creates a fast, hands-on feedback loop where software com
 ### 2.2 Electrical Wiring & Power Distribution
 
 ###  2.3  Direct Motor Steering Mechanism
+ <h3 align="center"><img width="50%" src="other/Steering Mechanism.png"></img></h3>
+ 
 To improve steering precision and operational reliability, the previous rack-and-pinion mechanism was replaced with a direct-drive steering system. This design utilizes a high-torque motor connected directly to a drive axle, supported by two 15-hole structural beams. By eliminating the intermediate gearing of a rack-and-pinion assembly, the system drastically reduces mechanical backlash and minimizes the risk of component failure. This direct coupling enables sharper, more repeatable angular turns, significantly optimizing field traversal efficiency and reducing overall cycle times during match play.
 
 # 🔋 3. Power and Sense Management
@@ -246,49 +249,49 @@ Despite these hurdles—both mechanical and software-related—we tackled each o
 
 **Individual Photos**
 
-<img width="50%" src="t-photos/FE TEAM A INDIV (2).png"></img>
-<img width="50%" src="t-photos/FE TEAM A INDIV (1).png"></img>
-<img width="50%" src="t-photos/FE TEAM A INDIV.png"></img>
+ <h3 align="center"><img width="50%" src="t-photos/FE TEAM A INDIV (2).png"></img> </h3>
+ <h3 align="center"><img width="50%" src="t-photos/FE TEAM A INDIV (1).png"></img> </h3>
+ <h3 align="center"><img width="50%" src="t-photos/FE TEAM A INDIV.png"></img> </h3>
 
 **Team Tahak Group Photo**
 
-<img width="75%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img>
+ <h3 align="center"><img width="75%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img> </h3>
 
 **Team Tahak Funny Photo**
 
-<img width="75%" src="t-photos/FE TEAM A GROUP FUNNY PHOTO.png"></img>
+ <h3 align="center"><img width="75%" src="t-photos/FE TEAM A GROUP FUNNY PHOTO.png"></img> </h3>
 
 **Team Tahak Group Photo with Coach**
 
-<img width="75%" src="t-photos/FE TEAM A PHOTO WITH TEAM COACH.png"></img>
+ <h3 align="center"><img width="75%" src="t-photos/FE TEAM A PHOTO WITH TEAM COACH.png"></img> </h3>
 
 **Vehicle Photo:** ***Full View***
 
-<img width="50%" src="v-photos/V PHOTO - B-BOT FULL VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - B-BOT FULL VIEW.png"></img> </h3>
 
 **Vehicle Photo:** ***Front View***
 
-<img width="50%" src="v-photos/V PHOTO - FRONT VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - FRONT VIEW.png"></img> </h3>
 
 **Vehicle Photo:** ***Back View***
 
-<img width="50%" src="v-photos/V PHOTO - BACK VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - BACK VIEW.png"></img> </h3>
 
 **Vehicle Photo:** ***Top View***
 
-<img width="50%" src="v-photos/V PHOTO - TOP VIEW.png"></img>
-
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - TOP VIEW.png"></img> </h3>
+ 
 **Vehicle Photo:** ***Bottom View***
 
-<img width="50%" src="v-photos/V PHOTO - BOTTOM VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - BOTTOM VIEW.png"></img> </h3>
 
 **Vehicle Photo:** ***Right View***
 
-<img width="50%" src="v-photos/V PHOTO - RIGHT VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - RIGHT VIEW.png"></img> </h3>
 
 **Vehicle Photo:** ***Left View***
 
-<img width="50%" src="v-photos/V PHOTO - LEFT VIEW.png"></img>
+ <h3 align="center"><img width="50%" src="v-photos/V PHOTO - LEFT VIEW.png"></img> </h3>
 
 # 📑 7. Logs and Documentations
 
