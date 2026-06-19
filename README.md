@@ -177,13 +177,14 @@ Ultimately, this setup creates a fast, hands-on feedback loop where software com
 ### 2.1 Component & Material Specifications (BOM) 
 | Image | Components | Quantity | Description |
 | :---: | :---: | :---: | :--- |
-| | **Spike Prime Hub** | 1 | It is the main brain and controller of our robot. It is also equipped with a 7.2V, 2,100 mAh rechargeable lithium-ion battery. |
-| | **Spike Distance sensor** | 2 | The technic Distance Sensor is used to measure the distance of the robot from the outer and inner walls. It helps the robot to avoid hitting the walls and aligning itself in the middle. |
-| | **Huskylens v1** | 1 | The huskylens v1 serves as the eye of our robot. Used to detect different obstacles, walls, and lines. This helps us to detect the green and red obstacles.|
-| | **Medium motor** | 1 | The technic medium angular motor is a highly responsive and high-speed motor. It helps give precise turning movement that's crucial for every corner of the playing mat. |
-| | **Large motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward 
-| | **Color sensor** | 1 | Operates with a high precision to detect colors, and measures reflected light. This sensor help us to determine the color blue and orange. | 
-| | **Spike Prime Wheels** | 4 | used for high traction, consistent alignment, and precise movement.
+|<img width="75%" src="other/Spike prime hub.jpg"></img>| **Spike Prime Hub** | 1 | It is the main brain and controller of our robot. It is also equipped with a 7.2V, 2,100 mAh rechargeable lithium-ion battery. |
+|<img width="75%" src="other/Distance sensor.jpg"></img>| **Spike Distance sensor** | 2 | The technic Distance Sensor is used to measure the distance of the robot from the outer and inner walls. It helps the robot to avoid hitting the walls and aligning itself in the middle. |
+|<img width="75%" src="other/Huskylens v1.jpg"></img>| **Huskylens v1** | 1 | The huskylens v1 serves as the eye of our robot. Used to detect different obstacles, walls, and lines. This helps us to detect the green and red obstacles.|
+|<img width="75%" src="other/Medium angular motor.jpg"></img> | **Medium angular motor** | 1 | The technic medium angular motor is a highly responsive and high-speed motor. It helps give precise turning movement that's crucial for every corner of the playing mat. |
+|<img width="75%" src="other/Large angular motor.jpg"></img> | **Large angular motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward.
+|<img width="75%" src="other/Color sensor.jpg"></img> | **Color sensor** | 1 | Operates with a high precision to detect colors, and measures reflected light. This sensor help us to determine the color blue and orange. | 
+|<img width="75%" src="other/Spike wheels.jpg"></img> | **Spike Prime Wheels** | 4 | Used for high traction, consistent alignment, and precise movement.
+|<img width="75%" src="other/Building components.jpg"></img>  | **SPIKE Prime Building Components** | Multiple pieces were used | Building components like axles, beams, gears, and connectors were used to construct the robot's driving and steering mechanisms. Precision, durability, and modular design makes these parts ensure mechanical reliability and easily integrate with electronic components.
 
 ### 2.2 Electrical Wiring & Power Distribution
 
@@ -193,18 +194,16 @@ To improve steering precision and operational reliability, the previous rack-and
 # 🔋 3. Power and Sense Management
 # 3.1 Power Management
 ### 3.1.1 Technic™ Large Hub
-**It provides us a versatile and efficient programming app and a well built software.**
-
+***It provides us a versatile and efficient programming app and a well built software.***
 ### 3.1.2 Yellow SPIKE Rechargeable Battery
-**It is the most compatible energy storage for the technic large hub.**
-
+***It is the most compatible energy storage for the technic large hub.***
 # 3.2 Sense Management
 ### 3.2.1 Black SPIKE Distance Sensor
-**This helps us differentiate distances between walls to determine how sharp we must turn or how little, with that we are able to have a versatile and capable rig that can traverse tight paths.**
+***This helps us differentiate distances between walls to determine how sharp we must turn or how little, with that we are able to have a versatile and capable rig that can traverse tight paths.***
 ### 3.2.2 Color Sensor
-**Used to detect the color of the lines in each corner, allowing our rig to differentiate which direction to turn in, allowing us to be able to have smooth runs.**
+***Used to detect the color of the lines in each corner, allowing our rig to differentiate which direction to turn in, allowing us to be able to have smooth runs.***
 ### 3.2.3 DFRobot HUSKYLENS v1
-**Provides us integrated AI and a built in differentiation system between specific items, e can also add on to the things it can detect and ignore allowing us to have a clear vision on how to traverse in the mat to choose which path allows us to have a more smooth and efficient runs.**
+***Provides us integrated AI and a built in differentiation system between specific items, e can also add on to the things it can detect and ignore allowing us to have a clear vision on how to traverse in the mat to choose which path allows us to have a more smooth and efficient runs.***
 
 
  # 🎯 4. Parking, Open and Obstacle Challenge Management
