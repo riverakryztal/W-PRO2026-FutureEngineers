@@ -25,7 +25,7 @@
         - [3.1.2 Yellow SPIKE Rechargeable Battery](#312-yellow-spike-rechargeable-battery)
     - [3.2 Sense Management](#32-sense-management)
         - [3.2.1 Black SPIKE Distance Sensor](#321-black-spike-distance-sensor)
-        -  [3.2.2 Color Sensor](#322-color-sensor)
+        -  [3.2.2 SPIKE Prime Color Sensor](#322-spike-prime-color-sensor)
         - [3.2.3 DFRobot HUSKYLENS v1](#323-dfrobot-huskylens-v1)
         
 - [🎯 4. Parking, Open and Obstacle Challenge Management](#-4-parking-open-and-obstacle-challenge-management)
@@ -194,15 +194,28 @@ To improve steering precision and operational reliability, the previous rack-and
 # 🔋 3. Power and Sense Management
 # 3.1 Power Management
 ### 3.1.1 Technic™ Large Hub
+<img width="25%" src="other/Technic™ Large Hub.png"></img>
+
 ***It provides us a versatile and efficient programming app and a well built software.***
+
 ### 3.1.2 Yellow SPIKE Rechargeable Battery
+<img width="25%" src="other/Yellow SPIKE Rechargable Battery.jpg"></img>
+
 ***It is the most compatible energy storage for the technic large hub.***
+
 # 3.2 Sense Management
 ### 3.2.1 Black SPIKE Distance Sensor
+<img width="25%" src="other/Black SPIKE Distance Sensor.jpg"></img>
+
 ***This helps us differentiate distances between walls to determine how sharp we must turn or how little, with that we are able to have a versatile and capable rig that can traverse tight paths.***
-### 3.2.2 Color Sensor
+
+### 3.2.2 SPIKE Prime Color Sensor
+<img width="25%" src="other/SPIKE Prime Color Sensor.jpg"></img>
 ***Used to detect the color of the lines in each corner, allowing our rig to differentiate which direction to turn in, allowing us to be able to have smooth runs.***
+
 ### 3.2.3 DFRobot HUSKYLENS v1
+<img width="25%" src="other/DFRobot HUSKYLENS v1.jpg"></img>
+
 ***Provides us integrated AI and a built in differentiation system between specific items, e can also add on to the things it can detect and ignore allowing us to have a clear vision on how to traverse in the mat to choose which path allows us to have a more smooth and efficient runs.***
 
 
