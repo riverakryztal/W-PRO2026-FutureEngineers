@@ -1,5 +1,5 @@
 # 🤖 PRO 2026 Future Engineers 
-### 🛠️ *Engineering for a better tomorrow, fueled by vision and hope* — we are the PCLU Arapaap Robotics Team Future Engineers - Team A.
+### 🛠️ *Engineering for a better tomorrow, fueled by vision and hope* — we are the PCLU Arapaap Robotics Team Future Engineers - Team A: Tahak.
 # Table of Contents
 [🧩 Introduction](#-introduction)
 
@@ -294,6 +294,14 @@ Despite these hurdles—both mechanical and software-related—we tackled each o
  <h3 align="center"><img width="50%" src="v-photos/V PHOTO - LEFT VIEW.png"></img> </h3>
 
 # 📑 7. Logs and Documentations
+
+<h3 align="center"><img width="50%" src="other/TEAM A LOGS 1.jpg"></img> </h3>
+
+<h3 align="center"><img width="50%" src="other/TEAM A LOGS 2.jpg"></img> </h3>
+
+<h3 align="center"><img width="50%" src="other/TEAM A LOGS 3.jpg"></img> </h3>
+
+<h3 align="center"><img width="50%" src="other/TEAM A LOGS 4.jpg"></img> </h3>
 
 # 🌀 8. Vehicle Performance Videos
 ### 8.1 Open Challenge Run
