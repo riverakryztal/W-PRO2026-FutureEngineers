@@ -226,6 +226,43 @@ To improve steering precision and operational reliability, the previous rack-and
  ### 4.1 Open Challenge Strategy
 Using the distance sensors and a color sensor, the robot will move forward until it detects the line colored blue or orange. Once it detects a color, the distance sensors will tell when to turn. If the robot should turn left or right and adjust itself in the middle once it makes a turning maneuver, using the distance sensors to guide the robot for inner and outer walls. This process repeats until it makes 3 continuous laps.
 
+from spike import PrimeHub, Motor, ColorSensor
+from spike.control import wait_for_seconds
+
+hub = PrimeHub()
+
+driving_motor = Motor('A')      # Change port if needed
+steering_motor = Motor('B')     # Change port if needed
+color_sensor = ColorSensor('C') # Change port if needed
+
+    # turns = 0
+
+    # while turns < 12:
+
+    # Start driving
+    driving_motor.start(50)
+
+    # Wait until blue or orange is detected
+    while True:
+        color = color_sensor.get_color()
+
+        if color == 'orange':
+            steering_motor.run_for_degrees(90, 50)
+            turns += 1
+            break
+
+        elif color == 'blue':
+            steering_motor.run_for_degrees(-90, 50)
+            turns += 1
+            break
+
+    # Continue driving
+    driving_motor.start(50)
+
+# Stop motors and end program
+driving_motor.stop()
+steering_motor.stop()
+
 ### 4.2 Obstacle Challenge Strategy
 For the obstacle challenge, a HuskyLens V1 was utilized to detect red and green obstacles. Upon detecting a green obstacle, the robot automatically turns left, while a red obstacle triggers a right turn. After executing the appropriate turn, the robot resumes its forward movement to scan for additional obstacles. This navigation and detection loop continues until the robot successfully completes three laps.
 
