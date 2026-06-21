@@ -330,5 +330,7 @@ Despite these hurdles—both mechanical and software-related—we tackled each o
 
 # 🌀 8. Vehicle Performance Videos
 ### 8.1 Open Challenge Run
+[![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)](https://www.youtube.com/watch?v=pqq72dm12Bw)
+
 ### 8.2 Obstacle Challenge Run
 ### 8.3 Parking
