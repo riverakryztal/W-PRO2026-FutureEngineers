@@ -87,7 +87,14 @@ Taking part in this Olympiad has completely changed how we see ourselves as youn
 
 
 # 🔩 Robot Specifications
--
+| Specifications | Details |
+| :---: | :---: | 
+| **Height** | ***18*** centimeters |
+| **Width** | ***20.5*** centimeters |
+| **Length** | ***26*** centimeters |
+| **Weight** | ***54.59*** grams |
+
+<img width="100%" src="v-photos/V PHOTO - B-BOT Specifications.png"></img>
 
 # 🚗 1. Vehicle Overview
 ### 1.1 Core Concept & Design Logic
