@@ -1,5 +1,12 @@
 # 🤖 PRO 2026 Future Engineers 
 ### 🛠️ *Engineering for a better tomorrow, fueled by vision and hope* — we are the PCLU Arapaap Robotics Team Future Engineers - Team A: Tahak.
+
+# 📃 **Abstract**
+
+The autonomous vehicle B-BOT, crafted by Team TAHAK from the Polytechnic College of La Union (PCLU) Elite Robotics Club, is a cutting-edge solution designed for the Future Engineers category of the 2026 Philippine Robotics Olympiad. Built using the LEGO Education SPIKE Prime ecosystem and enhanced with an AI-powered vision processor, this vehicle is grounded in essential engineering principles like structural integrity, operational efficiency, and spatial adaptability. To tackle performance issues discovered during early prototypes—like uneven weight distribution and mechanical slack—the chassis has been redesigned with a lightweight structure that lowers the center of gravity, significantly improving the power-to-weight ratio. The mechanical powertrain features a distinctive direct-drive steering system paired with a high-torque motor to eliminate backlash, along with a rear differential drive assembly that prevents wheel slippage and optimizes torque distribution in tight spaces.
+
+The software framework employs sensory teamwork to create a precise perception-action control loop using MicroPython. Lateral guidance is provided by dual SPIKE distance sensors that gauge proximity to boundary walls, while a floor-facing color sensor tracks boundary lines in real-time to keep lap progress synchronized during the Open Challenge. For the Obstacle Challenge, the primary navigation shifts to a DFRobot HuskyLens v1 vision processing unit, which uses real-time machine vision algorithms to identify color-coded barriers and execute quick evasive maneuvers—turning left for green obstacles and right for red ones. After completing three continuous laps, the vehicle wraps up its standard navigation and kicks off an automated parallel parking script, using localized sensor data to align and stop accurately within the designated area. This polishing engineering process strikes a balance between physical performance and innovative design.
+
 # Table of Contents
 [🧩 Introduction](#-introduction)
 
@@ -45,6 +52,14 @@
     - [8.3 Parking](#83-parking)
 
 # 🧩 Introduction
+
+Engineering is fundamentally the art and science of turning abstract vision into practical reality—a systematic process of problem-solving aimed at designing a better tomorrow through innovation, precision, and structural integrity. In the realm of robotics, this discipline comes alive as mechanical architecture, electrical distribution, and intelligent code converge to create machines capable of interacting dynamically with the physical world. For the Philippine Robotics Olympiad (PRO) 2026, this intersection takes on a deeper cultural significance under the theme, "Robots Meet Culture." This theme challenges young innovators to not only master advanced autonomous driving systems but to also design technologies that respect, reflect, and navigate the complex, rich spaces of our global heritage.
+
+In this challenging environment, the Polytechnic College of La Union (PCLU) Elite Robotics Club proudly presents Team A: TAHAK.
+
+The name "Tahak"—a Filipino word meaning to chart, traverse, or blaze a path through unexplored territory—perfectly embodies the team's engineering philosophy. To tahak means to seek a way forward in every possible direction, facing unexpected technical challenges head-on and turning obstacles into pathways for innovation. This foundational concept directly mirrors the core objective of this repository: the development of B-BOT, a fully autonomous mobile platform engineered to successfully navigate the intricate, highly constrained environments of the PRO 2026 Future Engineers category.
+
+The project outlined in this repository documentation highlights an advanced robotic system built on the LEGO Education SPIKE Prime platform, enhanced with AI-powered computer vision. Through a thorough, multi-stage prototyping process, Team Tahak has developed a nimble chassis that boasts a low center of gravity and excellent traction. By integrating real-time machine vision tracking with the DFRobot HuskyLens v1, lateral ultrasonic mapping, and precise color telemetry, B-BOT is equipped to execute dynamic path planning with ease.
 
 # 👥 About Us!
  <h3 align="center"><img width="100%" src="t-photos/FE TEAM A GROUP PHOTO.png"></img></h3>
@@ -235,43 +250,6 @@ To improve steering precision and operational reliability, the previous rack-and
  # 🎯 4. Parking, Open and Obstacle Challenge Management
  ### 4.1 Open Challenge Strategy
 Using the distance sensors and a color sensor, the robot will move forward until it detects the line colored blue or orange. Once it detects a color, the distance sensors will tell when to turn. If the robot should turn left or right and adjust itself in the middle once it makes a turning maneuver, using the distance sensors to guide the robot for inner and outer walls. This process repeats until it makes 3 continuous laps.
-
-from spike import PrimeHub, Motor, ColorSensor
-from spike.control import wait_for_seconds
-
-hub = PrimeHub()
-
-driving_motor = Motor('A')      # Change port if needed
-steering_motor = Motor('B')     # Change port if needed
-color_sensor = ColorSensor('C') # Change port if needed
-
-    # turns = 0
-
-    # while turns < 12:
-
-    # Start driving
-    driving_motor.start(50)
-
-    # Wait until blue or orange is detected
-    while True:
-        color = color_sensor.get_color()
-
-        if color == 'orange':
-            steering_motor.run_for_degrees(90, 50)
-            turns += 1
-            break
-
-        elif color == 'blue':
-            steering_motor.run_for_degrees(-90, 50)
-            turns += 1
-            break
-
-    # Continue driving
-    driving_motor.start(50)
-
-# Stop motors and end program
-driving_motor.stop()
-steering_motor.stop()
 
 ### 4.2 Obstacle Challenge Strategy
 For the obstacle challenge, a HuskyLens V1 was utilized to detect red and green obstacles. Upon detecting a green obstacle, the robot automatically turns left, while a red obstacle triggers a right turn. After executing the appropriate turn, the robot resumes its forward movement to scan for additional obstacles. This navigation and detection loop continues until the robot successfully completes three laps.
