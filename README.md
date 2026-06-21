@@ -189,10 +189,13 @@ Ultimately, this setup creates a fast, hands-on feedback loop where software com
 |<img width="75%" src="other/Distance sensor.jpg"></img>| **SPIKE Distance Sensor** | 2 | The technic Distance Sensor is used to measure the distance of the robot from the outer and inner walls. It helps the robot to avoid hitting the walls and aligning itself in the middle. |
 |<img width="75%" src="other/Huskylens v1.jpg"></img>| **HUSKYLENS v1** | 1 | The huskylens v1 serves as the eye of our robot. Used to detect different obstacles, walls, and lines. This helps us to detect the green and red obstacles.|
 |<img width="75%" src="other/Medium angular motor.jpg"></img> | **Medium Angular Motor** | 1 | The technic medium angular motor is a highly responsive and high-speed motor. It helps give precise turning movement that's crucial for every corner of the playing mat. |
-|<img width="75%" src="other/Large angular motor.jpg"></img> | **Large Angular Motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward.
+|<img width="75%" src="other/Large angular motor.jpg"></img> | **Large Angular Motor** | 1 | The technic large angular motor is used for the driving of the robot. It gives power to the robot to move forward. |
 |<img width="75%" src="other/Color sensor.jpg"></img> | **SPIKE PRIME Color Sensor** | 1 | Operates with a high precision to detect colors, and measures reflected light. This sensor help us to determine the color blue and orange. | 
-|<img width="75%" src="other/Spike wheels.jpg"></img> | **SPIKE PRIME Wheels** | 4 | Used for high traction, consistent alignment, and precise movement.
-|<img width="75%" src="other/Building components.jpg"></img>  | **SPIKE PRIME Building Components** | Multiple pieces were used | Building components like axles, beams, gears, and connectors were used to construct the robot's driving and steering mechanisms. Precision, durability, and modular design makes these parts ensure mechanical reliability and easily integrate with electronic components.
+|<img width="75%" src="other/Spike wheels.jpg"></img> | **SPIKE PRIME Wheels** | 4 | Used for high traction, consistent alignment, and precise movement. |
+|<img width="75%" src="other/Building components.jpg"></img>| **SPIKE PRIME Building Components** | Multiple pieces were used | Building components like axles, beams, gears, and connectors were used to construct the robot's driving and steering mechanisms. Precision, durability, and modular design makes these parts ensure mechanical reliability and easily integrate with electronic components. |
+|<img width="75%" src="other/Jumper wires.jpg"></img>| **Jumper Wires** | 4 |  It is used to connect both wires from the camera and the hub
+|<img width="75%" src="other/Lego powered up.jpg"></img>| Lego Power Up Wire | 4 | It is used to transfer data from the camera to the spike hub.
+
 
 ### 2.2 Electrical Wiring & Power Distribution
 
