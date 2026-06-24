@@ -20,6 +20,7 @@ The software framework employs sensory teamwork to create a precise perception-a
     - [1.2 Flow Diagram](#12-flow-diagram)
     - [1.3 Prototype Development](#13-prototype-development)
     - [1.4 Why LEGO Education Spike?](#14-why-lego-education-spike)
+    - [1.5 Car Logic](#15-car-logic)
       
 - [⚙️ 2. Mobility Management](#%EF%B8%8F-2-mobility-management)
     - [2.1 Component & Material Specifications (BOM) ](#21-component--material-specifications-bom)
@@ -195,6 +196,23 @@ The LEGO Education SPIKE ecosystem makes engineering workflows a breeze by minim
 
 Ultimately, this setup creates a fast, hands-on feedback loop where software commands translate directly into visible actions, significantly speeding up the debugging, optimization, and validation of autonomous navigation algorithms, especially in time-sensitive situations.
 
+### 1.5 Car Logic
+
+***1. Initialization Set up:***
+   The system boots up when the start button is pressed, loading the pre-programmed control logic into the microcontroller. The program immediately sets the primary trajectory, instructing the robot to navigate in either a clockwise (CW) or counter-clockwise (CCW) direction to establish its baseline orientation.
+
+***2. Path Execution:***
+    Once initialized, the motor drivers power the drive motors, executing forward motion. The robot follows a deterministic path aligned with the pre-selected CW or CCW directional constraints.
+
+***3. Sensor Fusion & Obstacle Avoidance:***
+    To navigate the course dynamically, the robot relies on an advanced multi-sensor array that combines surface tracking, distance measurement, and AI vision. For pathfinding, color sensors detect surface-level chromatic markers to ensure precise lap counting and route tracking. At the same time, ultrasonic sensors measure time-of-flight (ToF) distances to map boundaries and prevent collisions with walls. 
+    To tackle the Obstacle Challenge, the system integrates a HUSKYLENS V1 camera, leveraging its onboard machine learning algorithms to visually identify, classify, and track specific traffic signs in real time. During the challenge, the robot processes all of these data streams simultaneously; it uses the color sensors to stay locked onto the path, while pairing the visual classification from the HUSKYLENS camera with the proximity data from the ultrasonic sensors to dynamically steer around physical obstructions without ever losing its route.
+
+***4. Termination Logic:***
+The robot cuts power to the motors and comes to a stop only when specific state-machine conditions are met:
+Open Challenge: Halts immediately upon completing three (3) full laps.
+Obstacle Challenge: Halts only after successfully completing three (3) full laps while maintaining zero collisions with any traffic signs.
+
 # ⚙️ 2. Mobility Management
 
 ### 2.1 Component & Material Specifications (BOM) 
@@ -213,6 +231,19 @@ Ultimately, this setup creates a fast, hands-on feedback loop where software com
 
 
 ### 2.2 Electrical Wiring & Power Distribution
+<img width="100%" src="schemes/WIRING.png"></img>
+
+**Left Distance Sensor - B**
+
+**Right Distance Sensor - A**
+
+**Color Sensor - C**
+
+**Large Angular Motor - F**
+
+**Medium Angular Motor - E**
+
+**Huskylens V1 - D**
 
 ###  2.3  Direct Motor Steering Mechanism
  <h3 align="center"><img width="50%" src="other/Steering Mechanism.png"></img></h3>
